@@ -38,5 +38,5 @@ if __name__ == '__main__':
     main()
 
  added 
-1.pasta
-2.curry
+1.beans
+2.pizza
