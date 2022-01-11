@@ -10,8 +10,7 @@ def resizeimg(imgf,opts):
     imgnum = imgbase.split(".")
     print(imgnum)
     img = resizeimage.resize_contain(img, [365, 480])
-    img = img.convert("RGB")
-    oimg = f'{opts.output}/{opts.prefix}{imgnum[0]}.jpg'
+    img = f'{opts.output}/{opts.prefix}{imgnum[0]}.jpg'
     print(oimg)
     img.save(oimg, img.format)
     fd_img.close()
